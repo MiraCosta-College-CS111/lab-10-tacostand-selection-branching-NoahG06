@@ -1,7 +1,7 @@
+// PARTNER NAME: Noah Gonzalez
 // PARTNER NAME:
-// PARTNER NAME:
-// CS111 SECTION #:
-// DATE:
+// CS111 SECTION #: Lab 10
+// DATE: 3/23/25
 
 public class Main
 {
