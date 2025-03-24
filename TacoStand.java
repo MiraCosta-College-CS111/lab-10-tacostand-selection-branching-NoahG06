@@ -112,14 +112,17 @@ public class TacoStand
 
 			case 2:
 			TacoStand.totalFunds += (1.75D * numTacos);
+			TacoStand.numPollo -= numTacos;
 			break;
 
 			case 3:
 			TacoStand.totalFunds += (3.0D * numTacos);
+			TacoStand.numLengua -= numTacos;
 			break;
 
 			case 4:
 			TacoStand.totalFunds += (18.0D * numTacos);
+			TacoStand.numUltimate -= numTacos;
 			break;
 		}
 	}

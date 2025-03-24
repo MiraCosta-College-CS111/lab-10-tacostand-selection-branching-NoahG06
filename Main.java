@@ -73,7 +73,7 @@ public class Main
 		}
 		else
 		{
-			System.out.println("Error: Not enough Tacos. Sorry!");
+			System.out.println("We don't have that many tacos, sorry! Try again :(");
 		}
 	}
 
@@ -84,7 +84,8 @@ public class Main
 	 */
 	public static void printConfirmation(int numTacos) //TODO: upgrade per documentation
 	{
+		String endingMessage = String.format("%"+(numTacos+1)+"s%n", "🌮").replace(" ", "🌮");
 		System.out.println("Here you go, buen provecho!");
-		System.out.println("🌮");
+		System.out.println(endingMessage);
 	}
 }
