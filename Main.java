@@ -73,7 +73,7 @@ public class Main
 		}
 		else
 		{
-			System.out.print("Error: Not enough Tacos. Sorry!");
+			System.out.println("Error: Not enough Tacos. Sorry!");
 		}
 	}
 
